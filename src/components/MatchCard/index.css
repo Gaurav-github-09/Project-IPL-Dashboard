@@ -1,0 +1,65 @@
+/* Write your CSS here */
+
+.matchCard {
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  justify-content: space-evenly;
+  width: 45%;
+  padding: 20px;
+  min-height: 35vh;
+  text-align: center;
+  flex-wrap: wrap;
+  margin: 10px;
+  color: #ffffff;
+  align-items: center;
+  background-color: #1e293b;
+}
+
+@media (min-width: 768px) {
+  .matchCard {
+    width: 30%;
+  }
+}
+@media (max-width: 450px) {
+  .matchCard {
+    overflow: scroll;
+    width: 43%;
+    padding: 10px;
+    min-height: 43vh;
+    flex-grow: 5;
+    justify-content: space-between;
+  }
+}
+
+.teamLogo {
+  height: 80px;
+  width: 100px;
+  margin: 10px 0px 10px 0px;
+  padding: 0px;
+}
+
+.comTeam {
+  font-size: 20px;
+  padding: 5px;
+  margin: 5px;
+}
+.resultGm {
+  font-size: 15px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.matchStat {
+  font-size: 20px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.lost {
+  color: #e31a1a;
+}
+
+.won {
+  color: #18ed66;
+}

@@ -1,0 +1,90 @@
+/* Write your CSS here */
+
+.latMatCard {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  color: #ffffff;
+  background-color: #0f172a;
+  flex-wrap: wrap;
+  width: 100%;
+  border-radius: 15px;
+  margin: 20px 0px 20px 0px;
+  padding: 20px;
+}
+
+.inCard1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0px;
+  height: 100%;
+  width: 70%;
+  padding: 10px;
+}
+
+.lastPara {
+  width: 30%;
+  text-align: end;
+  display: flex;
+  justify-content: space-between;
+  min-height: 35vh;
+
+  padding: 10px 20px 10px 10px;
+  flex-direction: column;
+}
+
+@media (max-width: 768px) {
+  .latMatCard {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .inCard1 {
+    border-bottom: #475569 solid 4px;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .lastPara {
+    padding: 15px;
+    width: 100%;
+    text-align: start;
+  }
+}
+
+@media (min-width: 1200px) {
+  .lastPara {
+    padding: 10px 70px 10px 10px;
+    min-height: 75vh;
+  }
+}
+
+.forallparas {
+  display: flex;
+  font-size: small;
+  min-height: 20vh;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.logoTeamLat {
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  width: 30%;
+}
+
+.headingsAll {
+  font-size: 25px;
+  padding: 2px;
+  margin: 2px;
+  font-weight: 500;
+}
+
+.parasAll {
+  font-size: 18px;
+  padding: 2px;
+  margin: 2px;
+  font-weight: 300;
+}

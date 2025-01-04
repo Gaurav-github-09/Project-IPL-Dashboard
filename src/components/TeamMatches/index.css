@@ -1,0 +1,75 @@
+/* Write your CSS here */
+
+.teamstyles {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+  min-height: 100vh;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .teamstyles {
+    padding: 55px;
+  }
+}
+
+.teamBanner {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.unorderedMatch {
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.forRCB {
+  background-image: linear-gradient(#d91c1f, #a4261d);
+}
+
+.forKKR {
+  background-image: linear-gradient(#5755a7, #13418b);
+}
+
+.forKXP {
+  background-image: linear-gradient(#d91c1f, #a4261d, #1e293b);
+}
+
+.forCSK {
+  background-image: linear-gradient(#f7db00, #a4261d);
+}
+
+.forRR {
+  background-image: linear-gradient(#da237b, #13418b);
+}
+
+.forMI {
+  background-image: linear-gradient(#13418b, #1e293b);
+}
+
+.forSH {
+  background-image: linear-gradient(#f26d22, #d91c1f);
+}
+
+.forDC {
+  background-image: linear-gradient(#13418b, #1e293b);
+}
+
+.ltstMtchs {
+  text-align: start;
+  align-self: flex-start;
+  padding: 15px 0px 5px 5px;
+  color: #ffffff;
+  font-weight: 300;
+}
