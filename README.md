@@ -23,4 +23,6 @@ This app will have the following functionalities
 - When the url path is incorrect **NO PAGE FOUND !!** will be displayed.
 
 </details>
+
+
 # Project-IPL-Dashboard
